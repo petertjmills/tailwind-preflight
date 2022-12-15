@@ -8,3 +8,7 @@ Source: [`Tailwind Preflight in repo`](https://github.com/tailwindlabs/tailwindc
 
 More information on Preflight (tailwind docs): [https://tailwindcss.com/docs/preflight](https://tailwindcss.com/docs/preflight)
 
+## Usage
+
+I use it like this: 
+html`<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/petertjmills/tailwind-preflight/dist/preflight.min.css">`
