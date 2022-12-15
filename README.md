@@ -1,4 +1,5 @@
 # Tailwind Preflight
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Tailwind's alternative to [`Reset.css`](https://meyerweb.com/eric/tools/css/reset/)/[`normalize.css`](https://necolas.github.io/normalize.css/)/[`modern-normalize.css`](https://github.com/sindresorhus/modern-normalize)
 
