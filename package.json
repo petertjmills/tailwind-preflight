@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-preflight",
+  "version": "1.0.0",
+  "description": "Tailwind's preflight css, a reset.css/normalize.css alternative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/preflight.css -o dist/preflight.css && postcss src/preflight.css -o dist/preflight.min.css --no-map --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petertjmills/tailwind-preflight.git"
+  },
+  "author": "Peter Mills",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petertjmills/tailwind-preflight/issues"
+  },
+  "homepage": "https://github.com/petertjmills/tailwind-preflight#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "cssnano": "^5.1.14"
+  }
+}
